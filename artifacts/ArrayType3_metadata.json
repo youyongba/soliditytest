@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "setArr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "showArr",
+				"outputs": [
+					{
+						"internalType": "uint256[2][2]",
+						"name": "",
+						"type": "uint256[2][2]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ArrrayType.sol": "ArrayType3"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ArrrayType.sol": {
+			"keccak256": "0x8bafc876c3108fa9739922eb620728d0da9bc83398a23eebad64d742fae5d747",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://44677d985d6f69df1351cfd6d9f7b01faf15d073052d44c0653c5e5db9cdeb92",
+				"dweb:/ipfs/QmfYosH3k4DN5JbhRG6vHHGrcqw8shPbgz1NFpF9wGYQrF"
+			]
+		}
+	},
+	"version": 1
+}

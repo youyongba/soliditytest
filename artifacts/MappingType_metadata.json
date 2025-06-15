@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBlanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setBalances",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"setBalances(uint256)": {
+					"notice": "{ 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4: 10000, 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2: 20000, } { 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db: { 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db: 30000 }, 0x617F2E2fD72FD9D5503197092aC168c91465E7f2: { 0x17F6AD8Ef982297579C203069C1DbfFE4348c372: 30000 } }"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MappingType.sol": "MappingType"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MappingType.sol": {
+			"keccak256": "0x458de7bd450ad82295fbab34fafa34ec738d8744f642712d591815915923ade2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b43eb11a63d9c0e81b88916b2314d8ef7e4db013e551f3b1fd87c8016dbe80a",
+				"dweb:/ipfs/QmRAxiW8WPtLFmgvWGUPZZxAe6k4CyT1P1hxe4bSPztBdz"
+			]
+		}
+	},
+	"version": 1
+}
