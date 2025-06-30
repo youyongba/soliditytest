@@ -30,18 +30,7 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_a",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_b",
-						"type": "string"
-					}
-				],
+				"inputs": [],
 				"name": "concat3",
 				"outputs": [
 					{
@@ -50,7 +39,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -75,32 +64,6 @@
 					}
 				],
 				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "concat5",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "concat6",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -141,19 +104,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "testString1",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -184,11 +134,11 @@
 	},
 	"sources": {
 		"DataType.sol": {
-			"keccak256": "0xb7d7a3046f88c73d30052968ed5c67a9ce3560cc19b8c7ee2f0b33ef2fecb0ba",
+			"keccak256": "0x34164c83f190531f11662ffb979afe777afdae26582b8bba796137f240ac9b62",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://104559b0f1b5564a27b843794aeb76a70ccde51ef1f00c6d3b568fbc6789e7e5",
-				"dweb:/ipfs/Qmb86gxcd7AjGSBm7JbjvPVmkypZifE2YAhdS2trAH8oyx"
+				"bzz-raw://dc24ca36e7b7736bfcdbde6681698e05f2a1f2500cd67fa3d09c1d01d3fd6af8",
+				"dweb:/ipfs/QmbT54marFKyNF4vT9KBT8LHxFgg7TixgxoE4vWTcZWVr2"
 			]
 		}
 	},

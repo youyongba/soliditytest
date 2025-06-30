@@ -84,14 +84,14 @@ contract StringType {
     }
 
 
-    function concat3(string memory _a, string memory _b) public view returns(string memory) {
+    function concat3() public view returns(string memory) {
         bytes memory _ba = bytes(str1);
         bytes memory _bb = bytes(str2);
         return string(bytes.concat(_ba, _bb));
     }
 
 
-    function concat4(string memory _a, string memory _b) public view returns(string memory) {
+    function concat4(string memory _a, string memory _b) public pure returns(string memory) {
         bytes memory _ba = bytes(_a);
         bytes memory _bb = bytes(_b);
         return string(bytes.concat(_ba, _bb));
